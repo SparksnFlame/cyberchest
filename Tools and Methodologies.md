@@ -4,7 +4,7 @@
 #### Reconnaissance - [TA0043](https://attack.mitre.org/tactics/TA0043/)
 ##### Web app
 1. Access web app and browse through as a normal user
-2  Check page source code for potential file exploits and web app insights
+2.  Check page source code for potential file exploits and web app insights
 3. Gobuster to search for directory structure
    - dir option for directory search
    - -u for URL
