@@ -21,7 +21,7 @@
 #### Weaponization
 1. Create shell / reverse shell in backend language
    - Eg: [PHP shell](Shells\shell.php)
-   - Eg: [PHP reverse shell](Reverse shells\reverse.php)
+   - Eg: [PHP reverse shell]("Reverse shells"\reverse.php)
    #### Delivery
 #### Social Engineering
 #### Exploitation
