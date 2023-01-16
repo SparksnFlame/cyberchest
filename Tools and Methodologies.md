@@ -15,6 +15,12 @@
    - -sT and -sU : TCP  / UDP
    - -sV: Provides versions of the services
    - -A: Advanced and Aggressive = -sV -sC --traceroute
+5. Nikto
+   - -h: host option (works with IP, domaim, file) - e.g: ``` nikto -h 10.10.10.10 ```
+
+6. Dirbuster
+   - ``` dirb http://10.10.10.10 ```
+
 
 
 ### Weaponization
@@ -24,6 +30,7 @@
 ### Delivery
 ### Social Engineering
 ### Exploitation
+1. Check permissions: sudo -l
 ### Persistence
 ### Defense Evasion
 ### Command & Control
