@@ -27,6 +27,11 @@
 1. Create shell / reverse shell in backend language
    - Eg: [PHP shell](Shells\shell.php)
    - Eg: [PHP reverse shell](Reverse shells\reverse.php)
+2. Hashes
+   - Unix known format
+   - Windows LTNM format
+   - [Typical hash types](https://hashcat.net/wiki/doku.php?id=example_hashes)
+   - [Rainbow tables](https://crackstation.net/)
 ### Delivery
 ### Social Engineering
 ### Exploitation
