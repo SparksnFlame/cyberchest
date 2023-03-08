@@ -22,7 +22,6 @@
    - ``` dirb http://10.10.10.10 ```
 
 
-
 ### Weaponization
 1. Create shell / reverse shell in backend language
    - Eg: [PHP shell](Shells\shell.php)
