@@ -45,6 +45,15 @@ print(names_list)
 names_list.insert(1, "Jane")
 print(names_list)
 
+#Advanced strings
+#string format method
+print("Please use the following: {}".format(names_list[1]))
+print("My favorite name is %s" % names_list[2])
+print(f"My favorite is {names_list[3]}") #most modern approach
+
+#Dictionaries {key,value}
+employees = {"Finance": ["Jack", "Jill"], "HR": "Jane"}
+print(employees)
 
 
 
