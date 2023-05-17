@@ -10,16 +10,26 @@
    - -w for wordlist
 4. Nmap application - [Link](https://nmap.org/book/toc.html)
    - Start by stealth searches and move to more noisy
+   - -sn: Shows hosts that are online WITHOUT port scanning
    - -sL: List IPs in block and Reverse-DNS
-   - -sS: SYN scan
+   - -sS: SYN scan it was more stealhy but it can be detected with good security
    - -sT and -sU : TCP  / UDP
    - -sV: Provides versions of the services
    - -A: Advanced and Aggressive = -sV -sC --traceroute
+   - -p: Ports to be scanned. Usage -p 1,10 (1 and 10) 1-10 (1 to 10) -p- (all ports)
+   - -T(1-5) 1 slow less detectable 5 faster more detectable
 5. Nikto
    - -h: host option (works with IP, domaim, file) - e.g: ``` nikto -h 10.10.10.10 ```
 
 6. Dirbuster
    - ``` dirb http://10.10.10.10 ```
+
+7. Arpscan
+   - arpscan -l: searches network throgh ARP protocol L2
+
+8. Netdiscover
+   - netdiscover -r Network IP
+
 
 
 ### Weaponization
