@@ -18,9 +18,14 @@
 5. Nikto
    - -h: host option (works with IP, domaim, file) - e.g: ``` nikto -h 10.10.10.10 ```
 
-6. Dirbuster
+6. Dirb
    - ``` dirb http://10.10.10.10 ```
 
+7. Dirbuster
+   Check this tool https://www.hackingarticles.in/comprehensive-guide-on-dirbuster-tool/
+
+8. Gobuster
+   Check this tool https://hackertarget.com/gobuster-tutorial/
 
 
 ### Weaponization
