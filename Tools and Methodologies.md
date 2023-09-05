@@ -3,7 +3,7 @@
 ### Reconnaissance - [TA0043](https://attack.mitre.org/tactics/TA0043/)
 #### Network Scanning
 1. Arpscan
-   - arpscan -l: searches network throgh ARP protocol L2
+   - arp-scan -l: searches network throgh ARP protocol L2
 
 2. Netdiscover
    - netdiscover -r Network IP
