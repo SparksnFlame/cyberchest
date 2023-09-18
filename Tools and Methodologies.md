@@ -44,6 +44,9 @@
 2. Use smbclient to try to access (list SMB)
    ```smbclient -L \\\\IP\\```
 
+#### Enumerating Processes in Linux
+https://github.com/DominicBreuker/pspy
+
 #### Identifying vulnerabilities
 CVE information
 https://www.cvedetails.com/
@@ -56,11 +59,20 @@ https://www.cvedetails.com/
    - Windows LTNM format
    - [Typical hash types](https://hashcat.net/wiki/doku.php?id=example_hashes)
    - [Rainbow tables](https://crackstation.net/)
+3. Shell cheat sheets
+   https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
+   https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
 ### Delivery
+PHP reverse shells can be deployed via vulnerable upload buttons in web applications
 ### Social Engineering
 ### Exploitation
 1. Check permissions: sudo -l
 ### Persistence
+Obtain more users
 ### Defense Evasion
 ### Command & Control
 ### Pivoting
+Privilege escalation
+https://delinea.com/blog/linux-privilege-escalation
+https://shauryasharma05.medium.com/privilege-escalation-through-insecure-configuration-db8ac03b324c
+https://systemweakness.com/how-to-escalate-privileges-in-linux-privilege-escalation-techniques-70c92499ae45
